@@ -8,6 +8,8 @@ public class SpringbootGitKomApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootGitKomApplication.class, args);
+		
+		PrintMessage.printMessage();
 	}
 
 }
